@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Libraries, Shims, Splices, Packages, Daemons, and other tools made for autobuilding/content pipeline work.
+HyperGenesis/

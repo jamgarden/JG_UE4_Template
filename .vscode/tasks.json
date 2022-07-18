@@ -1,0 +1,1447 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "TemplateTest Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win32",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Win64",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Debug Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Debug Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTest Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTest Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Development Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Development Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTest Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Shipping Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTest Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Test Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Build",
+				"TemplateTest Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Test Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-Project=C:/Users/Aeramen/Documents/Unreal Projects/TemplateTest 4.27/TemplateTest.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"TemplateTest Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTest Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTest Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTest",
+				"Android",
+				"Test",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTestEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTestEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TemplateTestEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "TemplateTestEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TemplateTestEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\TemplateTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		}
+	]
+}

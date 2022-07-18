@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "TemplateTestEditor Editor Win64 Development (TemplateTest)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\.vscode\\compileCommands_TemplateTest.json"
+		},
+		{
+			"name": "Win32",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\.vscode\\compileCommands_Default.json"
+		}
+	]
+}

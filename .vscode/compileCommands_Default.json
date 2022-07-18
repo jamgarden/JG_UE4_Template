@@ -1,0 +1,27 @@
+[
+	{
+		"file": "C:\\\\Users\\\\Aeramen\\\\Documents\\\\Unreal Projects\\\\TemplateTest 4.27\\\\Source\\\\TemplateTest\\\\MyClass.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\.vscode\\compileCommands_Default\\TemplateTest.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Aeramen\\\\Documents\\\\Unreal Projects\\\\TemplateTest 4.27\\\\Source\\\\TemplateTest\\\\MyClass.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\.vscode\\compileCommands_Default\\TemplateTest.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Aeramen\\\\Documents\\\\Unreal Projects\\\\TemplateTest 4.27\\\\Source\\\\TemplateTest\\\\TemplateTest.Build.cs",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\.vscode\\compileCommands_Default\\TemplateTest.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Aeramen\\\\Documents\\\\Unreal Projects\\\\TemplateTest 4.27\\\\Source\\\\TemplateTest\\\\TemplateTest.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\.vscode\\compileCommands_Default\\TemplateTest.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Aeramen\\\\Documents\\\\Unreal Projects\\\\TemplateTest 4.27\\\\Source\\\\TemplateTest\\\\TemplateTest.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Aeramen\\Documents\\Unreal Projects\\TemplateTest 4.27\\.vscode\\compileCommands_Default\\TemplateTest.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	}
+]
